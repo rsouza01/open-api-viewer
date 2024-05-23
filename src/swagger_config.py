@@ -1,20 +1,20 @@
 swagger_template ={
     "swagger": "2.0",
     "info": {
-      "title": "Wine Quality Prediction",
-      "description": "API Documentation for Wine Quality Prediction",
+      "title": "Open API Viewer",
+      "description": "Open API Viewer Script",
       "contact": {
-        "name": "Admin",
-        "email": "dinithi@axiatadigitallabs.com",
-        "url": "http://www.axiatadigitallabs.com",
+        "name": "Rodrigo",
+        "email": "rsouza01@gmail.com",
+        "url": "https://www.rodrigosouza.net.br",
         },
       "termsOfService": "Terms of services",
       "version": "1.0",
-      "host":"Wine_Quality_Prediction",
+      "host":"",
       "basePath":"http://localhost:5000",
       "license":{
-        "name":"License of API",
-        "url":"API license URL"
+        "name":"MIT",
+        "url":"https://opensource.org/license/mit"
       }
               },
     "schemes": [
@@ -30,8 +30,8 @@ swagger_config = {
     ],
     "specs": [
         {
-            "endpoint": 'Wine_Quality_Prediction',
-            "route": '/Wine_Quality_Prediction.json',
+            "endpoint": 'Open_API_Viewer',
+            "route": '/Open_API_Viewer.json',
             "rule_filter": lambda rule: True,
             "model_filter": lambda tag: True,
         }
@@ -39,5 +39,4 @@ swagger_config = {
     "static_url_path": "/flasgger_static",
     "swagger_ui": True,
     "specs_route": "/",
-    
 }
